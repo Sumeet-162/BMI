@@ -14,7 +14,7 @@ function calculate(){
   result.textContent = bmi;
 
   if(bmi < 18.5){
-    category = "underweight";
+    category = "Underweight";
     result.style.color = "#ffc44d";
   }
   else if( bmi >= 18.5 && bmi <= 24.9 ){
